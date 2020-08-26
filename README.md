@@ -5,7 +5,7 @@ Simple flask app that counts web site visits and stored in a default Redis backe
 Step 1
 ------
 * build and run the application using `docker-compose up –d`
-* notice how compose creates a volume that‘s defined in the `docker-compose.yml` before creating the actual containers. You will also see that the volume‘s lifetime is independent from the lifetime of the containers
+* notice how compose creates a (named) volume that‘s defined in the `docker-compose.yml` before creating the actual containers. You will also see that the volume‘s lifetime is independent from the lifetime of the containers
 - use `docker-compose logs –f`  to attach to see what‘s going on inside the containers
 - access the website (see grey button for the port 5000) and see how the counter is working (see it increasing when you refresh the page)
 
