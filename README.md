@@ -18,8 +18,8 @@ Step 2
 Step 3
 ------
 - make sure all related containers are gone again (`docker-compose down`)
-- list all volumes using docker and use inspect to take a look at the volume created from the compose-file
-- adapt the text of the Website and start new containers. You'll see that the changed state will be used.
+- list all volumes using `docker volume ls` and use `inspect` to take a look at the volume created from the compose-file
+- adapt the text of the Website (in the volume) and start new containers. You'll see that the changed text will be used.
 
 Step 4 (for quick people)
 --------------------------
